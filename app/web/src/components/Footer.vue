@@ -14,7 +14,7 @@
       <div class="col-lg-6">
       </div>
       <div class="col-lg-12 credits">
-        Phil G
+        Phil G Edit
       </div>
       <div class="col-lg-6">
       </div>
