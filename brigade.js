@@ -58,7 +58,7 @@ function dockerJobRunner(config, d) {
 
 function kubeJobRunner (config, k) {
     k.storage.enabled = false
-    k.image = "azureworkshop/rating-web:v1"
+    k.image = "philg.azurecr.io/azureworkshop/rating-web:v1"
     k.tasks = [
         `kubectl set image deployment/heroes-web-deploy heroes-web-cntnr=<youracrhere>.azurecr.io/azureworkshop/rating-web:${config.get("imageTag")}`
     ]
